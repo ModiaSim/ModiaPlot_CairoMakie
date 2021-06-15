@@ -58,9 +58,9 @@ version = "1.0.5"
 
 [[CairoMakie]]
 deps = ["Base64", "Cairo", "Colors", "FFTW", "FileIO", "FreeType", "GeometryBasics", "LinearAlgebra", "Makie", "SHA", "StaticArrays"]
-git-tree-sha1 = "13bfc08f345bbcaa73f58bf33e0706828839cc72"
+git-tree-sha1 = "a37649a6a08838134a022e7ad374e33180908d48"
 uuid = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
-version = "0.5.9"
+version = "0.5.10"
 
 [[Cairo_jll]]
 deps = ["Artifacts", "Bzip2_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "JLLWrappers", "LZO_jll", "Libdl", "Pixman_jll", "Pkg", "Xorg_libXext_jll", "Xorg_libXrender_jll", "Zlib_jll", "libpng_jll"]
@@ -491,9 +491,9 @@ version = "1.42.0+0"
 
 [[Libiconv_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "8d22e127ea9a0917bc98ebd3755c8bd31989381e"
+git-tree-sha1 = "42b62845d70a619f063a7da093d995ec8e15e778"
 uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
-version = "1.16.1+0"
+version = "1.16.1+1"
 
 [[Libmount_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -571,6 +571,12 @@ version = "0.4.5"
 [[Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
+[[ModiaResult]]
+deps = ["DataFrames", "DataStructures", "Measurements", "MonteCarloMeasurements", "Pkg", "Tables", "Unitful"]
+git-tree-sha1 = "30491bd7ffc12a2e32077a6932dbb013ddbd6539"
+uuid = "16a87621-1533-42f6-8e19-4a825980cec2"
+version = "0.2.0"
+
 [[MonteCarloMeasurements]]
 deps = ["Distributed", "Distributions", "LinearAlgebra", "MacroTools", "Random", "RecipesBase", "Requires", "SLEEFPirates", "StaticArrays", "Statistics", "StatsBase", "Test"]
 git-tree-sha1 = "cdc1eb7c5a1154c15dfe7368f1ca1f693dc40202"
@@ -607,9 +613,9 @@ version = "0.4.0"
 
 [[OffsetArrays]]
 deps = ["Adapt"]
-git-tree-sha1 = "1381a7142eefd4cd12f052a4d2d790fe21bd1d55"
+git-tree-sha1 = "e436bb81d2ce4f01fb02374c4410e5a9229c85f9"
 uuid = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
-version = "1.9.2"
+version = "1.10.0"
 
 [[Ogg_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
