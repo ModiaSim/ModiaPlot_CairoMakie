@@ -12,6 +12,9 @@ const Date = "2021-06-15"
 
 println("Importing ModiaPlot_CairoMakie Version $Version ($Date) - this takes some time due to CairoMakie import")
 
+export plot, showFigure, saveFigure, closeFigure, closeAllFigures
+export resultInfo, showResultInfo
+
 import ModiaResult
 import Colors
 import Measurements
