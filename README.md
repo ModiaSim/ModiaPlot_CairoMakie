@@ -20,7 +20,7 @@ Once a result data structure `result` with signals `sigA(t), sigB(t), sigC(t), r
 ```julia
  # │ name  unit    nTime  signalType  valueSize  eltype          
 ───┼─────────────────────────────────────────────────────────────
- 1 │ time          2      TimeSignal  ()         Float64
+ 1 │ time          2      Independent ()         Float64
  2 │ sigA  m       88     Continuous  ()         Float64
  3 │ sigB  m s^-1  151    Continuous  ()         Float64
  4 │ sigC  m N     16     Clocked     ()         Float64
@@ -33,7 +33,7 @@ is available and `CairoMakie` selected for plotting,
 import ModiaResult
 
 # Define plotting software globally
-ModiaResult.activate("CairoMakie") # or ENV["MODIA_PLOT"] = "CairoMakie"
+ModiaResult.usePlotPackage("CairoMakie") # or ENV["MODIA_PLOT"] = "CairoMakie"
                 
 # Execute "using ModiaPlot_CairoMakie"                              
 ModiaResult.@usingModiaPlot
