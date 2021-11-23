@@ -7,8 +7,8 @@ module ModiaPlot_CairoMakie
 const headingSize = 10
 
 const path = dirname(dirname(@__FILE__))   # Absolute path of package directory
-const Version = "0.3.0"
-const Date = "2021-06-19"
+const Version = "0.4.4"
+const Date = "2021-11-23"
 
 println("Importing ModiaPlot_CairoMakie Version $Version ($Date) - this takes some time due to CairoMakie import")
 
@@ -24,6 +24,8 @@ include("$(ModiaResult.path)/src/plot.jl")
 const showFigureStringInDiagram = false
 const callDisplayFunction = false
 const reusePossible = true
+
+const Makie_Point2f = isdefined(CairoMakie, :Point2f) ? Point2f : Point2f0 
 include("$(ModiaResult.path)/src/makie.jl")
 
 
