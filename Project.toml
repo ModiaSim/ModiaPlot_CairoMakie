@@ -1,7 +1,7 @@
 name = "ModiaPlot_CairoMakie"
 uuid = "9f8f4483-481e-4903-91bb-7ade42e914e0"
 authors = ["Martin.Otter@dlr.de <Martin.Otter@dlr.de>"]
-version = "0.4.4"
+version = "0.4.5"
 
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
