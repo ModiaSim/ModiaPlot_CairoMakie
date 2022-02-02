@@ -1,7 +1,7 @@
 name = "ModiaPlot_CairoMakie"
 uuid = "9f8f4483-481e-4903-91bb-7ade42e914e0"
 authors = ["Martin.Otter@dlr.de <Martin.Otter@dlr.de>"]
-version = "0.4.3"
+version = "0.4.4"
 
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
@@ -13,11 +13,11 @@ MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [compat]
-CairoMakie = "0.6"
+CairoMakie = "0.7"
 Colors = "0.12, 0.11, 0.10"
 DataFrames = "1, 0.22, 0.21, 0.20, 0.19"
 Measurements = "2"
-ModiaResult = "0.3.7"
+ModiaResult = "0.3.9"
 MonteCarloMeasurements = "1, 0.10"
 Unitful = "1"
 julia = "1"
