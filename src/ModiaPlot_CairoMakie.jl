@@ -7,8 +7,8 @@ module ModiaPlot_CairoMakie
 const headingSize = 10
 
 const path = dirname(dirname(@__FILE__))   # Absolute path of package directory
-const Version = "0.4.4"
-const Date = "2021-11-23"
+const Version = "0.5.0"
+const Date = "2022-02-03"
 
 println("Importing ModiaPlot_CairoMakie Version $Version ($Date) - this takes some time due to CairoMakie import")
 
